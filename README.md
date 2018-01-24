@@ -1,1 +1,1 @@
-Awesomw Blog (Simple Blog App)
+Awesome Blog (Simple React Blog App)
