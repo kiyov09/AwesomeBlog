@@ -1,0 +1,32 @@
+.post-item {
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.post-item:hover {
+    transform: scale(1.01);
+}
+
+.post-item a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.post-item__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.post-item__username {
+    font-style: italic;
+}
+
+.post-item__comments {
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.post-item__text {
+}

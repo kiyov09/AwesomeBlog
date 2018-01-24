@@ -1,0 +1,22 @@
+.post-form {
+    position: relative;
+    margin: 0 auto;
+    padding: 2em 5em;
+    padding-bottom: 0;
+}
+
+.post-form__spinner-overlay {
+    position: absolute;
+    top: -5%;
+    left: -5%;
+    width: 110%;
+    height: 100%;
+    background-color: rgba(150, 150, 150, 0.2);
+    z-index: 2;
+    border-radius: 5px;
+}
+
+.post-form__spinner-overlay i {
+    position: absolute;
+    top: 45%;
+}

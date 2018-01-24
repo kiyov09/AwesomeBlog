@@ -1,0 +1,22 @@
+.post-comments {
+    width: 100%;
+    position: relative;
+}
+
+.post-comments__heading {
+    margin-top: 2em;
+}
+
+.post-comments__spinner-container {
+    position: absolute;
+    top: 100px;
+    left: 45%;
+    z-index: 3;
+}
+
+.post-comments__list {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin-top: 2em;
+}

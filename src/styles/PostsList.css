@@ -1,0 +1,24 @@
+.posts-list {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.posts-list__loading {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.posts-list__list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 2em 5em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 648px) {
+    .posts-list__list {
+        width: 100%;
+    }
+}
